@@ -2371,8 +2371,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #FF6600;
-  border-color: #FF6600;
+  background-color: #f83d3d;
+  border-color: #f83d3d;
 }
 
 .btn-primary:hover {
@@ -4056,7 +4056,7 @@ input[type="button"].btn-block {
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #495057;
+  color: #006e72;
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
 }
@@ -9525,7 +9525,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #FF6600 !important;
+  color: #f83d3d !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9533,7 +9533,7 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 .text-secondary {
-  color: #F2F1F8 !important;
+  color: #ffdd64 !important;
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
@@ -9772,7 +9772,7 @@ h6,
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #FF6600;
+  color: #f83d3d;
 }
 
 @media (max-width: 991.98px) {
@@ -9817,7 +9817,7 @@ h6,
 }
 
 .carousel-indicators .active {
-  background: #FF6600;
+  background: #f83d3d;
 }
 
 @media (max-width: 991.98px) {
