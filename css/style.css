@@ -9981,6 +9981,8 @@ h6,
 
 .pointer:hover{
   text-decoration: underline;
+  background-color: #f42222;
+  transition: 100ms;
 }
 
 
