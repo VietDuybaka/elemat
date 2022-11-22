@@ -24,6 +24,8 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/guesstheimage.css">
+
 </head>
 
 <body>
@@ -159,16 +161,33 @@
     </div>
     <!-- About End -->
     <div class="container-fluid py-5">
-        <div class="maincontainer">
-
-            <div class="thecard" id = 'flashcard' onclick='flip()'></div>
-      
-              <div class="thefront"><h1>Front of Card</h1><p>Từ tiếng anh ở đây</p></div>
-      
-              <div class="theback"><h1>Back of Card</h1><p>Nghĩa tiếng việt ở đây</p>
+        
+            <p>FLAHS CARD OWR DAAY NHUNG MA LUOI LAM QUA, GAN NUA DEM ROOI TOI CON SONG DUOC 2 TUAN NUA THOI +)))))))))))))))))</p>
+        
+    </div>
+    
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="align-items-center">
+                <center>
+                    <div style="margin-top: 20px;">
+                       <h1 class="header-title">Đuổi hình bắt chữ</h1>
+                       <hr style="border: 3px solid #ff9100; border-radius: 10px; width: 100px; margin-bottom: 20px;" />
+                       <div class="alert-box"></div>
+                       <div class="hinl-place"></div>
+                       <p class="qustion"></p>
+                       <input type="text" class="answer" placeholder="Nhập câu trả lời" />
+                       <br/>
+                       <button class="skip"> Bỏ qua </button>
+                       <button class="reveal"> Đáp án </button>
+                       <br>
+                       <input type="button" class="submit-btn" value="Kiểm tra"/>
+                    </div>
+                 </center>
             </div>
         </div>
     </div>
+    <script src="js/qustion.js" ></script>
 
     
     <!-- Footer Start -->

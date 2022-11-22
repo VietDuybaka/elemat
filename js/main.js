@@ -1,17 +1,17 @@
-state = 0
-function flip(){
-    if (state == 0){
-        document.getElementById("flashcard").style.transform = 'rotateY(180deg)';
-        state = 1
-    }
-    else if (state==1){
-        document.querySelector('#flashcard').style.transform = 'rotateY(0deg)';
-        state = 0
-    }
+// state = 0
+// function flip(){
+//     if (state == 0){
+//         document.getElementById("flashcard").style.transform = 'rotateY(180deg)';
+//         state = 1
+//     }
+//     else if (state==1){
+//         document.querySelector('#flashcard').style.transform = 'rotateY(0deg)';
+//         state = 0
+//     }
 
 
-}
-document.getElementById("flashcard").addEventListener("click",flip())
+// }
+// document.getElementById("flashcard").addEventListener("click",flip())
 
 (function ($) {
     "use strict";
@@ -81,4 +81,5 @@ document.getElementById('nghi-luan-ve-mot-tu-tuong-dao-li').onclick = () => {
 document.getElementById('phong-cach-ngon-ngu-khoa-hoc').onclick = () => {
     pdfViewer.src= 'doc/phong cách ngôn ngữ khoa học.pdf#toolbar=0'
 }
+
 
