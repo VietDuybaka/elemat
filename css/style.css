@@ -9979,25 +9979,10 @@ h6,
   cursor:pointer
 }
 
-.pointer:hover{
-  text-decoration: underline;
+/* .pointer:hover{
   background-color: #f42222;
   transition: 100ms;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+} */
 
 .no-scroll-bar{
   scrollbar-color: black;
