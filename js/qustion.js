@@ -1,5 +1,7 @@
 function playAudio(url) {
-    new Audio(url).play();
+    mp3 = new Audio(url);
+    mp3.volume = 0.2
+    mp3.play()
   }
 var submit_btn = document.querySelector(".submit-btn"),
                answer_input = document.querySelector(".answer"),
