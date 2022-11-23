@@ -54,19 +54,54 @@ var submit_btn = document.querySelector(".submit-btn"),
          }
 
 var qustion_data_base = [
-    {
-        title: "environment",
-        hint_qustion: "hint question goes here",
-        image_url: "https://www.aimsindia.com/wp-content/uploads/2022/06/world-environment.png"
-    },
-    {
-        title: "", //đây là keyword
-        hint_qustion: "", //đây là câu dẫn
-        image_url: "" //đây là link ảnh
-    },
-    {
-        title: "", 
-        hint_qustion: "",
-        image_url: ""
-    }
-]
+      {
+          title: "urbanisation",
+          hint_qustion: "the process by which more and more people leave the countryside to live in cities",
+          image_url: "https://imgnew.outlookindia.com/public/uploads/articles/2019/6/10/Enviornment_36_20190608.jpg"
+      },
+      {
+          title: "industrialisation",
+          hint_qustion: "the process of developing industries in a country",
+          image_url: "https://indiacsr.in/wp-content/uploads/2021/11/x1080.jpg"
+      },   
+      {
+          title: "lead",
+          hint_qustion: "to control a group of people, a country, or a situation",
+          image_url: "https://www.studytienganh.vn/upload/2021/05/98131.jpeg"
+      },
+      {
+          title: "progressive",
+          hint_qustion: "developing or happening gradually",
+          image_url: "https://cafefcdn.com/thumb_w/650/2019/2/9/kt-15496454529361952141237-crop-1549645474073418365895.jpg"
+      },
+      {
+          title: "mould and mildew",
+          hint_qustion: "a grey or black subtance that grows on food, walls or surfaces in wet and warm conditions",
+          image_url: "https://www.mashed.com/img/gallery/why-you-shouldnt-just-cut-the-mold-off-old-bread/l-intro-1647730054.jpg"
+      },
+      {
+          title: "clutter",
+          hint_qustion: "(a lot of objects in) a state of being untidy",
+          image_url: "https://s.abcnews.com/images/Health/cluttered-home-stock-jef-190114_hpMain_16x9_1600.jpg"
+      },
+      {
+          title: "organic",
+          hint_qustion: "not using artificial chemicals in the growing of plants and animals for food and other products",
+          image_url: "https://naganic.vn/wp-content/uploads/2021/09/thuc-pham-organic-1.jpg"
+      },
+      {
+          title: "figure",
+          hint_qustion: "the symbol for a number or an amount expressed in numbers",
+          image_url: "https://i.imgur.com/cC5yS01.jpg"
+      },
+      {
+          title: "mindset",
+          hint_qustion: "a person's way of thinking and their opinions",
+          image_url: "https://cafekinhdoanh.net/wp-content/uploads/2020/11/mindset-la-gi.jpg"
+      },
+      {
+          title: "mass media",
+          hint_qustion: "the main means of communication reaching people on a large scale, such as: television, radio, movies, newspapers,...",
+          image_url: "https://lh6.googleusercontent.com/g4okBvKUUwz4lJgy-m0rVzHHZAC7Oz37qBa7HwqhI0gXFjA71lIjxP9pb7YKCXuTDRviFNY_wYSbRbBqVzh13VylV1nIdQV3UpmfLv9bJwl8pdb5Ac7UdgfzXCnTIoIG00tIWZBz"
+      },
+  ]

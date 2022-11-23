@@ -160,21 +160,18 @@
     <!-- About End -->
 
     <!-- PDF VIEWER START -->
-    <div class="container-fluid text-white py-5 px-sm-3 px-lg-5 flex-row"  style="display: flex; min-height:600px;background-color:#525659">
-        <div class = 'col-3'  style='background-color:#f83d3d'>
+    <div class="container-fluid text-white py-5 px-sm-3 px-lg-5 flex-row"  style="display: flex; min-height:600px;background-color:#ffde09">
+        <div class = 'col-3'  style='background-color:#008037'>
             <div class="d-flex flex-column justify-content-start">
                 <h4 style="cursor: default">Mục lục</h4>
-                <p id="su_bai_1" class="text-white mb-2 pointer" href=""><i class="fa fa-angle-right mr-2"></i>
-                    Bài 1
+                <p id="địa_lí_1" class="text-white mb-2 pointer" href=""><i class="fa fa-angle-right mr-2"></i>
+                    Vị trí địa lí, phạm Vi lãnh thổ
                 </p>
-                <p id="su_bai_2" class="text-white mb-2 pointer" href=""><i class="fa fa-angle-right mr-2"></i>
-                    Bài 2
+                <p id="địa_lí_2" class="text-white mb-2 pointer" href=""><i class="fa fa-angle-right mr-2"></i>
+                    Đất nước nhiều đồi núi
                 </p>
-                <p id='su_bai_3'class="text-white mb-2 pointer" href=""><i class="fa fa-angle-right mr-2"></i>
-                    Bài 3
-                </p>
-                <p id='su_bai_4' class="text-white mb-2 pointer" href=""><i class="fa fa-angle-right mr-2"></i>
-                    Bài 4
+                <p id='địa_lí_3'class="text-white mb-2 pointer" href=""><i class="fa fa-angle-right mr-2"></i>
+                    Thiên nhiên chịu ảnh hưởng sâu sắc của biển
                 </p>
             </div>
         </div>
@@ -183,20 +180,18 @@
     </div>
     <script>
         pdfViewer = document.getElementById('pdf-viewer')
-        document.getElementById('su_bai_1').onclick = () => {
-            pdfViewer.src= 'doc/sử bài 1.pdf#toolbar=0'
+        document.getElementById('địa_lí_1').onclick = () => {
+            pdfViewer.src= 'doc/vị trí địa lý, phạm vi lãnh thổ (1).pdf#toolbar=0'
         }
         
-        document.getElementById('su_bai_2').onclick = () => {
-            pdfViewer.src= 'doc/sử bài 2.pdf#toolbar=0'
+        document.getElementById('địa_lí_2').onclick = () => {
+            pdfViewer.src= 'doc/đất nước nhiều đồi núi.pdf#toolbar=0'
         }
         
-        document.getElementById('su_bai_3').onclick = () => {
-            pdfViewer.src= 'doc/sử bài 3.pdf#toolbar=0'
+        document.getElementById('địa_lí_3').onclick = () => {
+            pdfViewer.src= 'doc/THIÊN NHIÊN chịu ảnh hưởng sâu sắc của BIỂN.pdf#toolbar=0'
         }
-        document.getElementById('su_bai_4').onclick = () => {
-            pdfViewer.src= 'doc/sử bài 4.pdf#toolbar=0'
-        }
+        
     </script>
 
     <!-- END OF PDF VIEWER -->
