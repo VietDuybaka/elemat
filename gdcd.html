@@ -171,38 +171,24 @@
         <div class = 'col-3'  style='background-color:#f15c00'>
             <div class="d-flex flex-column justify-content-start">
                 <h4 style="cursor: default;color:#ffde59">Mục lục</h4>
-                <p id="su_bai_1" class="text-white mb-2 pointer" href=""><i class="fa fa-angle-right mr-2"></i>
-                    Bài 1
+                <p id="gdcd_bai_1" class="text-white mb-2 pointer" href=""><i class="fa fa-angle-right mr-2"></i>
+                    Bài 1: Pháp luật và đời sống
                 </p>
-                <p id="su_bai_2" class="text-white mb-2 pointer" href=""><i class="fa fa-angle-right mr-2"></i>
-                    Bài 2
-                </p>
-                <p id='su_bai_3'class="text-white mb-2 pointer" href=""><i class="fa fa-angle-right mr-2"></i>
-                    Bài 3
-                </p>
-                <p id='su_bai_4' class="text-white mb-2 pointer" href=""><i class="fa fa-angle-right mr-2"></i>
-                    Bài 4
-                </p>
+                <p id="gdcd_bai_2" class="text-white mb-2 pointer" href=""><i class="fa fa-angle-right mr-2"></i>
+                    Bài 2: Thực hiện Pháp luật
             </div>
         </div>
-        <iframe id="pdf-viewer" class="col-9 no-scroll-bar" src="doc\đất nước nhiều đồi núi.pdf#toolbar=0" style="border:none">
+        <iframe id="pdf-viewer" class="col-9 no-scroll-bar" src="doc\PHÁP LUẬT VÀ ĐỜI SỐNG.pdf#toolbar=0" style="border:none">
         </iframe>
     </div>
     <script>
         pdfViewer = document.getElementById('pdf-viewer')
-        document.getElementById('su_bai_1').onclick = () => {
-            pdfViewer.src= 'doc/sử bài 1.pdf#toolbar=0'
+        document.getElementById('gdcd_bai_1').onclick = () => {
+            pdfViewer.src= 'doc/PHÁP LUẬT VÀ ĐỜI SỐNG.pdf#toolbar=0'
         }
         
-        document.getElementById('su_bai_2').onclick = () => {
-            pdfViewer.src= 'doc/sử bài 2.pdf#toolbar=0'
-        }
-        
-        document.getElementById('su_bai_3').onclick = () => {
-            pdfViewer.src= 'doc/sử bài 3.pdf#toolbar=0'
-        }
-        document.getElementById('su_bai_4').onclick = () => {
-            pdfViewer.src= 'doc/sử bài 4.pdf#toolbar=0'
+        document.getElementById('gdcd_bai_2').onclick = () => {
+            pdfViewer.src= 'doc/bài 2 thực hiện pháp luật .pdf#toolbar=0'
         }
     </script>
 
