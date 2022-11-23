@@ -60,26 +60,7 @@
 })(jQuery);
 
 
-pdfViewer = document.getElementById('pdf-viewer')
 
-document.getElementById('tuyen-ngon-doc-lap').onclick = () => {
-    pdfViewer.src = 'doc/tuyên ngôn độc lập.pdf#toolbar=0'
-}
-
-document.getElementById('nghi-luan-ve-mot-bai-tho-doan-tho').onclick = () => {
-    pdfViewer.src= 'doc/nghị luận về một bài thơ, đoạn thơ.pdf#toolbar=0'
-}
-
-document.getElementById('nghi-luan-ve-mot-hien-tuong-doi-song').onclick = () => {
-    pdfViewer.src= 'doc/nghị luận về một hiện tượng đời sống.pdf#toolbar=0'
-}
-
-document.getElementById('nghi-luan-ve-mot-tu-tuong-dao-li').onclick = () => {
-    pdfViewer.src= 'doc/nghị luận về tư tưởng đạo lí.pdf#toolbar=0'
-}
-
-document.getElementById('phong-cach-ngon-ngu-khoa-hoc').onclick = () => {
-    pdfViewer.src= 'doc/phong cách ngôn ngữ khoa học.pdf#toolbar=0'
-}
+//Su
 
 

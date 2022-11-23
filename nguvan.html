@@ -158,6 +158,8 @@
         </div>
     </div>
     <!-- About End -->
+
+    <!-- PDF VIEWER -->
     <div class="container-fluid text-white py-5 px-sm-3 px-lg-5 flex-row"  style="display: flex; min-height:600px;background-color:#525659">
             <div class = 'col-3'  style='background-color:#f83d3d'>
                 <div class="d-flex flex-column justify-content-start">
@@ -173,8 +175,34 @@
             </iframe>
     </div>
     
+    <script>
+        pdfViewer = document.getElementById('pdf-viewer')
+
+        //Van
+        document.getElementById('tuyen-ngon-doc-lap').onclick = () => {
+            pdfViewer.src = 'doc/tuyên ngôn độc lập.pdf#toolbar=0'
+        }
+
+        document.getElementById('nghi-luan-ve-mot-bai-tho-doan-tho').onclick = () => {
+            pdfViewer.src= 'doc/nghị luận về một bài thơ, đoạn thơ.pdf#toolbar=0'
+        }
+
+        document.getElementById('nghi-luan-ve-mot-hien-tuong-doi-song').onclick = () => {
+            pdfViewer.src= 'doc/nghị luận về một hiện tượng đời sống.pdf#toolbar=0'
+        }
+
+        document.getElementById('nghi-luan-ve-mot-tu-tuong-dao-li').onclick = () => {
+            pdfViewer.src= 'doc/nghị luận về tư tưởng đạo lí.pdf#toolbar=0'
+        }
+
+        document.getElementById('phong-cach-ngon-ngu-khoa-hoc').onclick = () => {
+            pdfViewer.src= 'doc/phong cách ngôn ngữ khoa học.pdf#toolbar=0'
+        }
+
+    </script>
     
-    
+    <!-- END OF PDF VIEWER -->
+
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-white py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
         <div class="row pt-5">
