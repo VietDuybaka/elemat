@@ -159,7 +159,55 @@
     </div>
     <!-- About End -->
 
+    <div class="container-fluid py-5 px-sm-3 px-lg-5 flex-row" style="display: flex;background-color:#ffb0b0;">
+        <div class="container py-5">
+            <div class="row" >
+                <div class="col-lg-3"style='background-color:#e10051'>
+                    <div class="d-flex flex-column justify-content-start" style="min-height:100px">
+                        <h4 style="cursor: default;color:#ffde59">Mục lục</h4>
+                        <p id="chude3" class="text-white mb-2 pointer" href=""><i class="fa fa-angle-right mr-2"></i>
+                            Chủ đề 03. Điện xoay chiều có 2 phần tử</p>
+                        <p id="chude4" class="text-white mb-2 pointer" href=""><i class="fa fa-angle-right mr-2"></i>
+                            Chủ đề 04. Mạch điện xoay chiều RLC</p>
+                        <p id='chude5'class="text-white mb-2 pointer" href=""><i class="fa fa-angle-right mr-2"></i>
+                            Chủ đề 05. Công suất và hệ số công suất </p>
+                        <p id='chude6' class="text-white mb-2 pointer" href=""><i class="fa fa-angle-right mr-2"></i>
+                            Chủ đề 06. Mạch RLC có R thay đổi</p>
+                        <p id="chude7" class="text-white mb-2 pointer" href=""><i class="fa fa-angle-right mr-2"></i>
+                            Chủ đề 07. Mạch RLC có L thay đổi</p>
+                    </div>
+                </div>
+                <iframe id="pdf-viewer" class="col-lg-9 no-scroll-bar" style="min-height:600px;border:none" src="doc/Chủ đề 03. Điện xoay chiều có 2 phần tử.pdf#toolbar=0" style="border:none">
+                </iframe>
+            </div>
+        </div>
+    </div>
+    <script>
+        pdfViewer = document.getElementById('pdf-viewer')
 
+        //Van
+        document.getElementById('chude3').onclick = () => {
+            pdfViewer.src = 'doc/Chủ đề 03. Điện xoay chiều có 2 phần tử.pdf#toolbar=0'
+        }
+
+        document.getElementById('chude4').onclick = () => {
+            pdfViewer.src= 'doc/Chủ đề 04. Mạch điện xoay chiều RLC.pdf#toolbar=0'
+        }
+
+        document.getElementById('chude5').onclick = () => {
+            pdfViewer.src= 'doc/Chủ đề 05. Công suất và hệ số công suất .pdf#toolbar=0'
+        }
+
+        document.getElementById('chude6').onclick = () => {
+            pdfViewer.src= 'doc/Chủ đề 06. Mạch RLC có R thay đổi.pdf#toolbar=0'
+        }
+
+        document.getElementById('chude7').onclick = () => {
+            pdfViewer.src= 'doc/Chủ đề 07. Mạch RLC có L thay đổi.pdf#toolbar=0'
+        }
+
+    </script>
+    
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-white py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
         <div class="row pt-5">

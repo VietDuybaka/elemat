@@ -167,19 +167,24 @@
     <!-- About End -->
 
     <!-- PDF VIEWER START -->
-    <div class="container-fluid text-white py-5 px-sm-3 px-lg-5 flex-row"  style="display: flex; min-height:600px;background-color:#ffde09">
-        <div class = 'col-3'  style='background-color:#f15c00'>
-            <div class="d-flex flex-column justify-content-start">
-                <h4 style="cursor: default;color:#ffde59">Mục lục</h4>
+
+    <div class="container-fluid py-5 px-sm-3 px-lg-5 flex-row" style="display: flex;background-color:#ffb0b0;">
+        <div class="container py-5">
+            <div class="row" >
+                <div class="col-lg-3"style='background-color: #f15c00'>
+                    <div class="d-flex flex-column justify-content-start" style="min-height:100px">
+                        <h4 style="cursor: default;color:#ffde59">Mục lục</h4>
                 <p id="gdcd_bai_1" class="text-white mb-2 pointer" href=""><i class="fa fa-angle-right mr-2"></i>
                     Bài 1: Pháp luật và đời sống
                 </p>
                 <p id="gdcd_bai_2" class="text-white mb-2 pointer" href=""><i class="fa fa-angle-right mr-2"></i>
-                    Bài 2: Thực hiện Pháp luật
+                    Bài 2: Thực hiện Pháp luật</p>
+            </div>
+                </div>
+                <iframe id="pdf-viewer" class="col-lg-9 no-scroll-bar" style="min-height:600px;border:none" src="doc\PHÁP LUẬT VÀ ĐỜI SỐNG (1).pdf#toolbar=0" style="border:none">
+                </iframe>
             </div>
         </div>
-        <iframe id="pdf-viewer" class="col-9 no-scroll-bar" src="doc\PHÁP LUẬT VÀ ĐỜI SỐNG (1).pdf#toolbar=0" style="border:none">
-        </iframe>
     </div>
     <script>
         pdfViewer = document.getElementById('pdf-viewer')
