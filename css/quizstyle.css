@@ -44,7 +44,7 @@ ul li{
 ul li label{
   cursor: pointer;
 }
-button{
+#submit{
   background-color: #03cae4;
   color: #fff;
   border: none;
@@ -55,10 +55,10 @@ button{
   font-family: inherit;
   padding: 1.3rem;
 }
-button:hover{
+#submit:hover{
   background-color: #04adc4;
 }
-button:focus{
+#submit:focus{
   outline: none;
   background-color: #44b927;
 }
