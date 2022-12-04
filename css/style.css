@@ -9976,13 +9976,45 @@ h6,
 } */
 
 .pointer{
-  cursor:pointer
+  cursor:pointer;
+  text-decoration: none;
 }
+
 
 /* .pointer:hover{
   background-color: #f42222;
   transition: 100ms;
 } */
+
+.pre-btn, .nxt-btn{
+  text-align: center;
+  margin:0;
+  padding: 0 0 10px;
+}
+.pre-btn{
+  float: left;
+  display: block;
+}
+.pre-btn a, .nxt-btn a{
+  background: #4caf50;
+  color: #fff;
+  width: 150px;
+  font-weight: 400;
+  line-height: 36px;
+  height: 40;
+  text-align: center;
+  font-size: 14px;
+  padding: 0 15px!important;
+  -webkit-border-radius: 44px;
+  -moz-border-radius: 44px;
+  -ms-border-radius: 44px;
+  border-radius: 44px;
+  display: inline-block;
+}
+
+.nxt-btn{
+  float:right
+}
 
 .no-scroll-bar{
   scrollbar-color: black;
