@@ -34,7 +34,7 @@
     <div class="container-fluid d-none d-lg-block">
         <div class="row align-items-center py-4 px-xl-5">
             <div class="col-lg-3">
-                <a href="" class="text-decoration-none">
+                <a href="#" class="text-decoration-none">
                     <h1 class="m-0"><span class="text-primary">E</span>LEMAT</h1>
                 </a>
             </div>
@@ -75,7 +75,7 @@
         <div class="row border-top px-xl-5">
             <div class="col-lg-12 w-100">
                 <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0">
-                    <a href="" class="text-decoration-none d-block d-lg-none">
+                    <a href="#" class="text-decoration-none d-block d-lg-none">
                         <h1 class="m-0"><span class="text-primary">E</span>LeMat</h1>
                     </a>
                     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -108,7 +108,7 @@
                             <a href="../luyenthi.html" class="nav-item nav-link">Luyện Thi</a>
                             
                         </div>
-                        <a class="btn btn-primary py-2 px-4 ml-auto d-none d-lg-block" href="">Tham gia</a>
+                        <a class="btn btn-primary py-2 px-4 ml-auto d-none d-lg-block" href="#">Tham gia</a>
                     </div>
                 </nav>
             </div>
@@ -123,7 +123,7 @@
             <div class="d-flex flex-column justify-content-center" style="min-height: 300px">
                 <h3 class="display-4 text-white text-uppercase">Toán</h3>
                 <div class="d-inline-flex text-white">
-                    <p class="m-0 text-uppercase"><a class="text-white" href="">Môn học</a></p>
+                    <p class="m-0 text-uppercase"><a class="text-white" href="#">Môn học</a></p>
                     <i class="fa fa-angle-double-right pt-1 px-3"></i>
                     <p class="m-0 text-uppercase">Toán</p>
                     <i class="fa fa-angle-double-right pt-1 px-3"></i>
@@ -194,6 +194,14 @@
     </div>
     <!-- Test End -->
 
+    <div class="pre-btn big">
+        <a href="#"><i class="icon icon-arrow-circle-o-left big-font"></i> Bài trước đó</a>
+    </div>
+    
+    
+    <div class="nxt-btn big">
+        <a href="../toan\bai2-cuc-tri-cua-ham-so.html">Bài tiếp theo <i class="icon icon-arrow-circle-o-right big-font"></i>&nbsp;</a>
+    </div>
     
     <script src="../js/quote.js"></script>
 
@@ -295,108 +303,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-    <script>
-        const quizData = [
-    {
-        question: "Tìm khoảng đồng biến của hàm số $$ y = 2x^3 - 9x^2 + 12x + 3 $$",
-        a: "(-∞; 1) ∪ (2; +∞) ",
-        b: "(-∞; 0) và (1; +∞)",
-        c: "(-∞; -1) ∪ (0; 1)",
-        d: "(0;1)",
-        correct: "a",
-    },
-    {
-        question: "Câu hỏi 2",
-        a: "đáp án A",
-        b: "đáp án B",
-        c: "đáp án C",
-        d: "đáp án D",
-        correct: "b",
-    },
-    {
-        question: "Câu hỏi 3",
-        a: "đáp án A",
-        b: "đáp án B",
-        c: "đáp án C",
-        d: "đáp án D",
-        correct: "b",
-    },
-    {
-        question: "Câu hỏi 3",
-        a: "đáp án A",
-        b: "đáp án B",
-        c: "đáp án C",
-        d: "đáp án D",
-        correct: "b",
-    },
-
-
-];
-
-const quiz= document.getElementById('quiz')
-const answerEls = document.querySelectorAll('.answer')
-const questionEl = document.getElementById('question')
-const a_text = document.getElementById('a_text')
-const b_text = document.getElementById('b_text')
-const c_text = document.getElementById('c_text')
-const d_text = document.getElementById('d_text')
-const submitBtn = document.getElementById('submit')
-
-
-let currentQuiz = 0
-let score = 0
-
-loadQuiz()
-
-function loadQuiz() {
-
-    deselectAnswers()
-
-    const currentQuizData = quizData[currentQuiz]
-
-    questionEl.innerText = currentQuizData.question
-    a_text.innerText = currentQuizData.a
-    b_text.innerText = currentQuizData.b
-    c_text.innerText = currentQuizData.c
-    d_text.innerText = currentQuizData.d
-}
-
-function deselectAnswers() {
-    answerEls.forEach(answerEl => answerEl.checked = false)
-}
-
-function getSelected() {
-    let answer
-    answerEls.forEach(answerEl => {
-        if(answerEl.checked) {
-            answer = answerEl.id
-        }
-    })
-    return answer
-}
-
-
-submitBtn.addEventListener('click', () => {
-    const answer = getSelected()
-    if(answer) {
-       if(answer === quizData[currentQuiz].correct) {
-           score++
-       }
-
-       currentQuiz++
-
-       if(currentQuiz < quizData.length) {
-           loadQuiz()
-       } else {
-           quiz.innerHTML = `
-           <h2>Ban da tra loi dung ${score}/${quizData.length} cau hoi</h2>
-
-           <button onclick="location.reload()">Reload</button>
-           `
-       }
-    }
-})
-    </script>
+    
 </body>
 
 </html>
