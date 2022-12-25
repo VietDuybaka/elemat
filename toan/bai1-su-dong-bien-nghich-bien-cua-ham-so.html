@@ -157,52 +157,15 @@
                 <h1>Bài tập phân theo từng dạng</h1>
             </div>
             <div class="row justify-content-center">
-                <!-- PDF VIEWER -->
-                <div class="container-fluid py-3 px-sm-3 px-lg-5 flex-row" style="display: flex;background-color:#ffb0b0;">
-                    <div class="container py-3">
-                        <div class="row" >
-                            <div class="col-lg-3"style='background-color:#e10051'>
-                                <div class="d-flex flex-column justify-content-start" style="min-height:100px">
-                                    <h4 style="cursor: default;color:#ffde59">Mục lục</h4>
-                                <p id="nghi-luan-ve-mot-tu-tuong-dao-li" class="text-white mb-2 pointer" href=""><i class="fa fa-angle-right mr-2"></i>Nghị luận về tư tưởng đạo lí</p>
-                                <p id="tuyen-ngon-doc-lap" class="text-white mb-2 pointer" href=""><i class="fa fa-angle-right mr-2"></i>Tuyên ngôn độc lập</p>
-                                <p id='nghi-luan-ve-mot-hien-tuong-doi-song'class="text-white mb-2 pointer" href=""><i class="fa fa-angle-right mr-2"></i>Nghị luận về hiện tượng đời sống</p>
-                                <p id='phong-cach-ngon-ngu-khoa-hoc' class="text-white mb-2 pointer" href=""><i class="fa fa-angle-right mr-2"></i>Phong cách ngôn ngữ khoa học</p>
-                                <p id="nghi-luan-ve-mot-bai-tho-doan-tho" class="text-white mb-2 pointer" href=""><i class="fa fa-angle-right mr-2"></i>Nghị luận về bài thơ, đoạn thơ</p>
-                                </div>
-                            </div>
-                            <iframe id="pdf-viewer" class="col-lg-9 no-scroll-bar" style="min-height:600px;border:none" src="../doc/tuyên ngôn độc lập.pdf#toolbar=0" style="border:none">
-                            </iframe>
-                        </div>
-                    </div>
-                </div>
+                
+                <iframe id="pdf-viewer" class="col-lg-11 no-scroll-bar" style="min-height:600px;border:none" src="../doc/TÍNH ĐƠN ĐIỆU CỦA HÀM SỐ.pdf#toolbar=0" style="border:none">
+                </iframe>
+                        
+                    
+            </div>
                 
                 
-                <script>
-                    pdfViewer = document.getElementById('pdf-viewer')
-
-                    //Van
-                    document.getElementById('tuyen-ngon-doc-lap').onclick = () => {
-                        pdfViewer.src = '../doc/tuyên ngôn độc lập.pdf#toolbar=0'
-                    }
-
-                    document.getElementById('nghi-luan-ve-mot-bai-tho-doan-tho').onclick = () => {
-                        pdfViewer.src= '../doc/nghị luận về một bài thơ, đoạn thơ.pdf#toolbar=0'
-                    }
-
-                    document.getElementById('nghi-luan-ve-mot-hien-tuong-doi-song').onclick = () => {
-                        pdfViewer.src= '../doc/nghị luận về một hiện tượng đời sống.pdf#toolbar=0'
-                    }
-
-                    document.getElementById('nghi-luan-ve-mot-tu-tuong-dao-li').onclick = () => {
-                        pdfViewer.src= '../doc/nghị luận về tư tưởng đạo lí.pdf#toolbar=0'
-                    }
-
-                    document.getElementById('phong-cach-ngon-ngu-khoa-hoc').onclick = () => {
-                        pdfViewer.src= '../doc/phong cách ngôn ngữ khoa học.pdf#toolbar=0'
-                    }
-
-                </script>
+                
                 
             </div>
         </div>
@@ -218,33 +181,7 @@
             </div>
             <div class="container-fluid py-3" style="display: flex;align-items: center;justify-content: center;">
                 <div class="quiz-container" id="quiz">
-                    <div class="quiz-header">
-                      <h2 id="question">Question Text</h2>
-                      <ul>
-                        <li>
-                          <input type="radio" name="answer" id="a" class="answer">
-                          <label for="a" id="a_text">Answer</label>
-                        </li>
-                
-                        <li>
-                          <input type="radio" name="answer" id="b" class="answer">
-                          <label for="b" id="b_text">Answer</label>
-                        </li>
-                
-                        <li>
-                          <input type="radio" name="answer" id="c" class="answer">
-                          <label for="c" id="c_text">Answer</label>
-                        </li>
-                
-                        <li>
-                          <input type="radio" name="answer" id="d" class="answer">
-                          <label for="d" id="d_text">Answer</label>
-                        </li>
-                
-                      </ul>
-                    </div>
-                
-                    <button id="submit">Kiểm tra</button>
+                    <a id="submit">Luyện tập</a>
                 
                   </div>
             </div>

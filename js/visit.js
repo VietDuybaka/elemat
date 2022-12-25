@@ -6,8 +6,8 @@ var x = setInterval(function() {
     
   // Find the distance between now and the count down date
   var distance = (now - countDownDate)/1000
-  document.getElementById("cd-d").innerHTML = Math.floor((distance-4174400)/10)
-  document.getElementById("cd-h").innerHTML = Math.floor((distance-4174800)/20)
+  document.getElementById("cd-d").innerHTML = Math.min(Math.floor((distance-4188400)/10),124)
+  document.getElementById("cd-h").innerHTML = Math.min(Math.floor((distance-4193800)/40),22)
   document.getElementById("cd-m").innerHTML = Math.floor((distance-4159000)/10)
   if (distance < 0) {
     clearInterval(x);

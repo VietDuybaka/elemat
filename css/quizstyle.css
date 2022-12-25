@@ -54,6 +54,8 @@ ul li label{
   font-size: 1.1rem;
   font-family: inherit;
   padding: 1.3rem;
+  text-align: center;
+  font-size: 30px;
 }
 #submit:hover{
   background-color: #04adc4;
