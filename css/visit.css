@@ -1,0 +1,14 @@
+.cd{
+    width: 17%;
+    height: 20%;
+    text-align: center;
+    font-size: 2vw;
+    color: rgb(250, 250, 250);
+    overflow: hidden;
+}
+.cd:last-child{
+    color: rgb(237, 84, 133);
+}
+#cd-d, #cd-h, #cd-m{
+    font-size: 5vw;
+}
